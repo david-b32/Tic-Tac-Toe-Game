@@ -125,8 +125,8 @@ bool keepPlaying() {
 	}
 
 	// Checks for a winner in the diagonals
-	bool upperDiagonalWin = board[0][0] == board[1][1] && board[0][0] == board[2][2];
-	bool lowerDiagonalWin = board[0][2] == board[1][1] && board[0][2] == board[2][0];
+	const bool upperDiagonalWin = board[0][0] == board[1][1] && board[0][0] == board[2][2];
+	const bool lowerDiagonalWin = board[0][2] == board[1][1] && board[0][2] == board[2][0];
 	if (upperDiagonalWin || lowerDiagonalWin) {
 		return false;
 	}
