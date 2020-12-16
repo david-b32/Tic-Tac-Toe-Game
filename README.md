@@ -9,3 +9,5 @@ Code uses the following:
 - Nested For loops
 - While loops
 - Switch case statements
+
+NOTE: I made this after completing my intro to coding class. I believe that more changes can be made and can be rewritten using structures and classes once I learn them.
